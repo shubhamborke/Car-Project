@@ -5,6 +5,6 @@ const result5 = function problem5(inventory){
             arr.push(inventory[i].car_year);
         }
     }
-    return arr;
+    return arr.length;
 }
 export {result5};
